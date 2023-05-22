@@ -1,0 +1,274 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #358391;
+    font-size: 11px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #8c8c73;
+    line-height: 18px;
+}
+
+a{
+    color: #67d8e7;
+    text-decoration: underline;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+sup{
+    font-size: 0.5em;
+}
+
+p{
+    margin-bottom: 14px;
+    text-align: justify;
+
+}
+
+img.picA{
+    position: relative;
+    top: -2px;
+    width: 180px;
+    height: 180px;
+    padding: 8px;
+}
+
+img.floatleft{
+    float: left;
+    margin: 0px 14px 3px 0px;
+
+}
+
+#outer{
+    position: relative;
+    width: 60%;
+    margin-top: 10px;
+    background: #fff;
+    border: initial;
+    overflow: overlay;
+    margin: 0px auto;
+}
+
+#header{
+    max-width: 100%;
+    height: 170px;
+}
+
+#header #splash{
+    float: left;
+    width: 67%;
+    max-width: 100%;
+    height: 170px;
+}
+
+#header #logo{
+    float: left;
+    width: 33%;
+    background: #67d8e7 url('../img/a38.gif') repeat-x;
+    color: #fff;
+    text-align: center;
+    height: 170px;
+    padding-top: 20px;
+}
+#header #logo span{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#header #logo #span h1{
+    font-weight: normal;
+    font-size: 15px;
+    letter-spacing: -1;
+}
+
+#pricipalcontent{
+    width: 100%;
+    background-color: white;
+
+}
+
+#secondarycontent{
+    width: 25%;
+    float: right;
+}
+
+#secondarycontent h3{
+    font-size: 16px;
+    line-height: 25px;
+    color: #111111;
+    letter-spacing: -1;
+    background: url('../img/a22.gif') bottom repeat-x;
+    padding: 0px 0px 10px 10px;
+    margin-bottom: 20px;
+}
+
+#secondarycontent .content{
+    
+    padding: 0px 10px 0px 10px;
+    margin-bottom: 20px;
+}
+
+#primarycontent{
+    float: left;
+    width: 74%;
+    margin-right: 3px;
+}
+
+#primarycontent h3{
+    font-size: 18px;
+    line-height: 25px;
+    color: #0e0e0d;
+    letter-spacing: -1;
+    background: url('../img/a22.gif') bottom repeat-x;
+    padding: 0px 0px 10px 15px;
+    margin-bottom: 20px;
+}
+#primarycontent p{
+    font-size: 14px;
+    color: #000000;
+}
+#primarycontent .post{
+    margin-bottom: 30px;
+}
+
+#primarycontent .post .content{
+    margin-bottom: 20px;
+    padding: 0px;
+    text-align: justify;
+    margin-left: 5px;
+}
+
+#primarycontent .post .content .footer{
+    background: url('../img/a33.gif') repeat-x;
+    height: 34px;
+    margin-top: 5px;
+    text-align: right;
+}
+
+#primarycontent .post .content .footer ul{
+    list-style: none;
+}
+
+#primarycontent .post .content .footer ul li{
+    display: inline;
+    line-height: 14px;
+    padding-left: 17px;
+    margin-left: 25px;
+    background-repeat: no-repeat;
+    background-position: 0px 2px;
+}
+
+#primarycontent .post .content .footer ul li .readmore{
+    background-image: url('../img/a38.gif');
+}
+
+#footer{
+    border-top: double;
+    clear: both;
+    height: 66px;
+    text-align: center;
+    color: #000000;
+    padding-top: 15px;
+    background-image: url('../img/a1.gif');
+    background: #67d8e7 repeat-x;
+}
+
+@media screen and (max-width: 1000px) {
+    #header #logo{
+        width: 100%;
+    }
+
+    #header #splash{
+        display: none;
+    }
+
+    #secondarycontent{
+        display: none;
+    }
+    #primarycontent{
+        width: 100%;
+    }
+}
+
+
+#menu{
+    display: flex;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: #529ba8;
+
+}
+
+#container .principal{
+    float: left;
+    color: rgb(24, 23, 23);
+    border-right: 1px solid #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 25px 10px 25px;
+}
+
+#container a:hover{
+font-size: larger;
+font-weight: bold;
+background-color:  #9bc1e0;
+}
+
+#container a.last{
+    border-right: 0px;
+}
+
+#date{
+    line-height: 38px;
+    color: #131312;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: -1px;
+    float: right ;
+}
+
+@media screen and (max-width: 1000px) {
+    #container, #container .principal{
+        width: 100%;
+        border-right: 0px;
+    }
+}
+
+.divautor {
+    margin: 0 auto;
+  }
+  
+  .autorPhoto {
+    border-radius: 20px;
+  }
+  
+  .autorData {
+    height: 18px;
+    width: 18px;
+  }
+  
+  .img_Social_Media {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+  
+  .social_media {
+    float: right;
+}
+
+  /*---- Font ----*/
+.font {
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+.linklist{
+    color: #000000;
+}
+

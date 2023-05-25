@@ -272,3 +272,12 @@ background-color:  #9bc1e0;
     color: #000000;
 }
 
+
+.info{
+    width: 90%;
+    height: auto;
+    margin: 5% auto;
+    padding: 20px;
+    font-size: 14px;
+    color: black;
+}
